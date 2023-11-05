@@ -847,3 +847,37 @@ margin-bottom: 40px;
         max-width: 100%;
     }
 }
+
+/* ----------------Project Button-------------- */
+.project-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.project-btn>button{
+    background-color: var(--skin-color);
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.project-btn>button:hover{
+    background-color: green;
+}
+
+.probtn:link, .probtn:visited {
+    background-color: var(--skin-color);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+  
+  .probtn:hover, .probtn:active {
+    background-color: red;
+  }
